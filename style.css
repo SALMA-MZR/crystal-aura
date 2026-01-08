@@ -2,9 +2,9 @@
    Global Styles & Variables
    =========================== */
 :root {
-    --primary-color: #f17ee5;
-    --secondary-color: #F8E8FF;
-    --accent-color: #FF69B4;
+    --primary-color: #f490a2;
+    --secondary-color: #fae5ec;
+    --accent-color: #f8aec1;
     --text-dark: #2C3E50;
     --text-muted: #6C757D;
     --bg-light: #FFF5FC;
@@ -53,7 +53,7 @@ a {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #7B5CB8;
+    background: #bd4b6d;
 }
 
 /* ===========================
@@ -302,7 +302,7 @@ a {
    CTA Section
    =========================== */
 .cta-section {
-    background: linear-gradient(135deg, var(--primary-color) 0%, #7B5CB8 100%);
+    background: linear-gradient(135deg, var(--primary-color) 0%, #6c353c 100%);
     position: relative;
     overflow: hidden;
 }
@@ -411,7 +411,7 @@ a {
 }
 
 .btn-primary:hover {
-    background-color: #FF1493;
+    background-color: #c23969;
     border-color: #FF1493;
 }
 

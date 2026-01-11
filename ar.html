@@ -4,188 +4,677 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>زيت الفيرومونات – أنوثة وجاذبية</title>
+  <link rel="icon" href="https://public-frontend-cos.metadl.com/mgx/img/favicon.png" type="image/png">
+  <title>زيت الجسم بالفيرومونات - أيقظي أنوثتك</title>
 
-  <!-- Bootstrap -->
+  <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
 
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="./style.css">
-
-  <style>
-    body {
-      font-family: 'Cairo', sans-serif;
-    }
-  </style>
 </head>
 
 <body>
 
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
-  <div class="container">
-    <a class="navbar-brand fw-bold" href="#">
-      <i class="fas fa-heart text-primary"></i>
-      زيت الفيرومونات
-    </a>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <i class="fas fa-heart text-primary"></i>
+        <span class="ms-2 fw-bold">Pheromone Oil</span>
+      </a>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAr">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <div class="collapse navbar-collapse" id="nav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="#benefits">الفوائد</a></li>
-        <li class="nav-item"><a class="nav-link" href="#ingredients">المكونات</a></li>
-        <li class="nav-item"><a class="nav-link" href="#testimonials">آراء الزبونات</a></li>
-        <li class="nav-item">
-          <a class="btn btn-primary ms-2" href="#cta">اطلبي الآن</a>
-        </li>
-        <li class="nav-item ms-2">
-          <a class="btn btn-outline-secondary btn-sm" href="index.html">FR</a>
-        </li>
-      </ul>
+      <div class="collapse navbar-collapse" id="navbarNavAr">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#benefits">المميزات</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#ingredients">المكوّنات</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonials">آراء الزبونات</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-primary text-white ms-lg-3 px-4" href="#cta">اطلبي الآن</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ms-lg-2" href="index.html">FR</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
-<!-- Hero -->
-<section class="hero-section pt-5 mt-5">
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-lg-6">
-        <span class="badge bg-secondary mb-3">تركيبة حصرية بالفيرومونات</span>
-        <h1 class="fw-bold mb-4">أبرزي أنوثتك وجاذبيتك الطبيعية</h1>
-        <p class="lead mb-4">
-          زيت فاخر للجسم بتركيبة فيرومونات طبيعية، يمنحك بشرة ناعمة
-          ويزيد من جاذبيتك وثقتك بنفسك.
+  <!-- Hero Section -->
+  <section class="hero-section" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-lg-6 hero-content">
+          <span class="badge bg-secondary text-dark mb-3">
+            <i class="fas fa-flask me-2"></i>تركيبة حصرية بالفيرومونات
+          </span>
+
+          <h1 class="display-3 fw-bold mb-4">أيقظي أنوثتك الطبيعية</h1>
+          <p class="lead mb-4">
+            اكتشفي زيت الجسم الفاخر بالفيرومونات الذي يمنح بشرتك نعومة ولمعانًا، ويبرز جاذبيتك بثقة.
+            تجربة حسّية لا تُنسى.
+          </p>
+
+          <div class="hero-cta">
+            <a href="#cta" class="btn btn-primary btn-lg px-5 me-3">
+              <i class="fas fa-shopping-cart me-2"></i>اطلبي الآن
+            </a>
+            <a href="#benefits" class="btn btn-outline-dark btn-lg px-5">
+              اكتشفي التفاصيل
+            </a>
+          </div>
+
+          <div class="hero-stats mt-5">
+            <div class="row text-center">
+              <div class="col-4">
+                <h3 class="fw-bold text-primary">97%</h3>
+                <p class="small">رضا الزبونات</p>
+              </div>
+              <div class="col-4">
+                <h3 class="fw-bold text-primary">45K+</h3>
+                <p class="small">زبونة سعيدة</p>
+              </div>
+              <div class="col-4">
+                <h3 class="fw-bold text-primary">24h</h3>
+                <p class="small">مفعول طويل</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 d-none d-lg-block">
+          <div class="hero-image-container">
+            <img src="./poo (1).png" alt="Pheromone Oil">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits Section -->
+  <section class="benefits-section py-5" id="benefits">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="badge bg-light text-primary mb-3">مميزاتنا</span>
+        <h2 class="display-5 fw-bold mb-3">لماذا تختارين زيت الفيرومونات؟</h2>
+        <p class="lead text-muted">تركيبة تم تطويرها بعناية لتبرز حضورك وجاذبيتك</p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="benefit-card text-center p-4 h-100">
+            <div class="benefit-icon mb-3">
+              <i class="fas fa-heart-pulse fa-3x text-primary"></i>
+            </div>
+            <h4 class="fw-bold mb-3">جاذبية قوية</h4>
+            <p class="text-muted">فيرومونات طبيعية تعزز الكاريزما وتزيد الثقة بالنفس</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="benefit-card text-center p-4 h-100">
+            <div class="benefit-icon mb-3">
+              <i class="fas fa-star fa-3x text-primary"></i>
+            </div>
+            <h4 class="fw-bold mb-3">بشرة حريرية</h4>
+            <p class="text-muted">ترطيب فاخر يترك البشرة ناعمة ومضيئة وبرائحة رقيقة</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="benefit-card text-center p-4 h-100">
+            <div class="benefit-icon mb-3">
+              <i class="fas fa-leaf fa-3x text-primary"></i>
+            </div>
+            <h4 class="fw-bold mb-3">مكوّنات طبيعية</h4>
+            <p class="text-muted">مكوّنات مختارة بعناية بدون مواد قاسية على البشرة</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="benefit-card text-center p-4 h-100">
+            <div class="benefit-icon mb-3">
+              <i class="fas fa-clock fa-3x text-primary"></i>
+            </div>
+            <h4 class="fw-bold mb-3">مفعول 24 ساعة</h4>
+            <p class="text-muted">رائحة ناعمة وتأثير يدوم طوال اليوم لثقة مستمرة</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product Showcase -->
+      <div class="row mt-5 align-items-center product-showcase">
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <img src="./phero.png" alt="Product" class="img-fluid">
+        </div>
+
+        <div class="col-lg-6">
+          <span class="badge bg-primary text-white mb-3">المنتج المميز</span>
+          <h3 class="display-6 fw-bold mb-4">زيت جسم فاخر بالفيرومونات</h3>
+          <p class="lead mb-4">
+            تركيبة تجمع بين الفيرومونات الطبيعية والزيوت الفاخرة لتجربة حسّية فريدة ترفع جمالك وثقتك.
+          </p>
+
+          <ul class="list-unstyled mb-4">
+            <li class="mb-3">
+              <i class="fas fa-check-circle text-primary me-2"></i>
+              <strong>يمتص بسرعة</strong> - قوام حريري غير دهني
+            </li>
+            <li class="mb-3">
+              <i class="fas fa-check-circle text-primary me-2"></i>
+              <strong>مناسب لكل أنواع البشرة</strong> - لطيف على الجلد
+            </li>
+            <li class="mb-3">
+              <i class="fas fa-check-circle text-primary me-2"></i>
+              <strong>نتائج مُرضية</strong> - نسبة رضا عالية
+            </li>
+            <li class="mb-3">
+              <i class="fas fa-check-circle text-primary me-2"></i>
+              <strong>جودة ممتازة</strong> - عناية في التصنيع
+            </li>
+          </ul>
+
+          <div class="price-tag mb-4">
+            <span class="old-price text-muted text-decoration-line-through me-3">299MAD</span>
+            <span class="new-price display-5 fw-bold text-primary">149MAD</span>
+            <span class="badge bg-danger ms-3">عرض محدود</span>
+          </div>
+
+          <a href="#cta" class="btn btn-primary btn-lg px-5">
+            <i class="fas fa-shopping-cart me-2"></i>أريد العرض الآن
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ingredients Section -->
+  <section class="ingredients-section py-5 bg-light" id="ingredients">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="badge bg-primary text-white mb-3">مكوّنات ثمينة</span>
+        <h2 class="display-5 fw-bold mb-3">سِرّ تركيبتنا</h2>
+        <p class="lead text-muted">مكوّنات طبيعية مختارة بعناية لفعالية ونعومة</p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="ingredient-card h-100">
+            <div class="ingredient-image">
+              <img src="./healthy-jojoba-oil-treatment-composition.jpg" alt="زيت الجوجوبا" class="img-fluid">
+            </div>
+            <div class="ingredient-content p-4">
+              <h4 class="fw-bold mb-3">
+                <i class="fas fa-seedling text-primary me-2"></i>زيت الجوجوبا
+              </h4>
+              <p class="text-muted mb-3">يساعد على ترطيب عميق وتغذية البشرة ويمنحها مظهرًا ناعمًا.</p>
+              <div class="ingredient-benefits">
+                <span class="badge bg-secondary me-2 mb-2">ترطيب</span>
+                <span class="badge bg-secondary me-2 mb-2">تغذية</span>
+                <span class="badge bg-secondary mb-2">توازن</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="ingredient-card h-100">
+            <div class="ingredient-image">
+              <img src="./almond-oil-bottle-dark-background.jpg" alt="زيت اللوز" class="img-fluid">
+            </div>
+            <div class="ingredient-content p-4">
+              <h4 class="fw-bold mb-3">
+                <i class="fas fa-gem text-primary me-2"></i>زيت اللوز الحلو
+              </h4>
+              <p class="text-muted mb-3">يساعد على تنعيم البشرة ويمنحها إشراقة جميلة وملمسًا مخمليًا.</p>
+              <div class="ingredient-benefits">
+                <span class="badge bg-secondary me-2 mb-2">نعومة</span>
+                <span class="badge bg-secondary me-2 mb-2">إشراقة</span>
+                <span class="badge bg-secondary mb-2">عناية</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="ingredient-card h-100">
+            <div class="ingredient-image">
+              <img src="https://mgx-backend-cdn.metadl.com/generate/images/887113/2026-01-07/837c8c55-f284-4180-8003-a8014167b34c.png"
+                alt="فيرومونات" class="img-fluid">
+            </div>
+            <div class="ingredient-content p-4">
+              <h4 class="fw-bold mb-3">
+                <i class="fas fa-heart text-primary me-2"></i>فيرومونات طبيعية
+              </h4>
+              <p class="text-muted mb-3">تعزز حضورك بثقة وتأثير ناعم يساعد على الإحساس بالجاذبية.</p>
+              <div class="ingredient-benefits">
+                <span class="badge bg-secondary me-2 mb-2">ثقة</span>
+                <span class="badge bg-secondary me-2 mb-2">جاذبية</span>
+                <span class="badge bg-secondary mb-2">أنوثة</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-5">
+        <p class="lead mb-3">
+          <i class="fas fa-certificate text-primary me-2"></i>
+          مكوّنات مختارة بعناية وجودة عالية
         </p>
-        <a href="#cta" class="btn btn-primary btn-lg">
-          <i class="fas fa-shopping-cart me-2"></i>
-          اطلبي الآن
-        </a>
-      </div>
-      <div class="col-lg-6 d-none d-lg-block text-center">
-        <img src="./phero.png" class="img-fluid">
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Benefits -->
-<section class="py-5" id="benefits">
-  <div class="container text-center">
-    <h2 class="fw-bold mb-4">لماذا تختارين هذا الزيت؟</h2>
-
-    <div class="row g-4">
-      <div class="col-md-3">
-        <i class="fas fa-heart fa-3x text-primary mb-3"></i>
-        <h5>جاذبية طبيعية</h5>
-        <p>يعزز الإشارات الأنثوية ويزيد من الانجذاب</p>
-      </div>
-      <div class="col-md-3">
-        <i class="fas fa-star fa-3x text-primary mb-3"></i>
-        <h5>بشرة ناعمة</h5>
-        <p>ترطيب عميق وملمس حريري</p>
-      </div>
-      <div class="col-md-3">
-        <i class="fas fa-leaf fa-3x text-primary mb-3"></i>
-        <h5>مكونات طبيعية</h5>
-        <p>بدون مواد كيميائية ضارة</p>
-      </div>
-      <div class="col-md-3">
-        <i class="fas fa-clock fa-3x text-primary mb-3"></i>
-        <h5>مفعول طويل</h5>
-        <p>يدوم حتى 24 ساعة</p>
+        <div class="certifications">
+          <span class="badge bg-white text-dark border me-2 p-3">
+            <i class="fas fa-leaf me-2"></i>طبيعي
+          </span>
+          <span class="badge bg-white text-dark border me-2 p-3">
+            <i class="fas fa-flask me-2"></i>لطيف على البشرة
+          </span>
+          <span class="badge bg-white text-dark border me-2 p-3">
+            <i class="fas fa-ban me-2"></i>بدون مواد قاسية
+          </span>
+          <span class="badge bg-white text-dark border p-3">
+            <i class="fas fa-paw me-2"></i>بدون تجارب قاسية
+          </span>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- Ingredients -->
-<section class="py-5 bg-light" id="ingredients">
-  <div class="container text-center">
-    <h2 class="fw-bold mb-4">مكونات مختارة بعناية</h2>
+  <!-- Testimonials Section -->
+  <section class="testimonials-section py-5" id="testimonials">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="badge bg-light text-primary mb-3">آراء الزبونات</span>
+        <h2 class="display-5 fw-bold mb-3">تجارب حقيقية</h2>
+        <p class="lead text-muted">شوفي شنو قالو الزبونات ديالنا</p>
+      </div>
 
-    <div class="row g-4">
-      <div class="col-md-4">
-        <h5>زيت الجوجوبا</h5>
-        <p>يرطب ويغذي البشرة بعمق</p>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="testimonial-card h-100 p-4">
+            <div class="stars mb-3">
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+            </div>
+            <p class="testimonial-text mb-4">"نتيجة رائعة! البشرة ولات ناعمة بزاف وحسّيت براسي واثقة. كاين فرق من أول استعمال."</p>
+            <div class="testimonial-author d-flex align-items-center">
+              <img src="https://mgx-backend-cdn.metadl.com/generate/images/887113/2026-01-07/435f2916-9620-4029-aeb8-a965848a263b.png"
+                alt="S" class="rounded-circle me-3">
+              <div>
+                <h6 class="fw-bold mb-0">صوفيا</h6>
+                <small class="text-muted">الرباط، المغرب</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="testimonial-card h-100 p-4">
+            <div class="stars mb-3">
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+            </div>
+            <p class="testimonial-text mb-4">"الريحة خفيفة وزوينة، والبشرة كتولى مشعة. ولى عندي روتين يومي ما كنستغناش عليه."</p>
+            <div class="testimonial-author d-flex align-items-center">
+              <img src="https://mgx-backend-cdn.metadl.com/generate/images/887113/2026-01-07/1cbb2d94-b49a-4e51-a4d2-5e169a270a68.png"
+                alt="M" class="rounded-circle me-3">
+              <div>
+                <h6 class="fw-bold mb-0">جوديا</h6>
+                <small class="text-muted">الدار البيضاء، المغرب</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="testimonial-card h-100 p-4">
+            <div class="stars mb-3">
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+            </div>
+            <p class="testimonial-text mb-4">"القوام خفيف وكيتمصّ بسرعة. بصدق من أحسن المنتجات لي جربت."</p>
+            <div class="testimonial-author d-flex align-items-center">
+              <img src="https://mgx-backend-cdn.metadl.com/generate/images/887113/2026-01-07/2957ff07-2ccc-400b-a7f4-299a632695f4.png"
+                alt="R" class="rounded-circle me-3">
+              <div>
+                <h6 class="fw-bold mb-0">رشا</h6>
+                <small class="text-muted">مراكش، المغرب</small>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col-md-4">
-        <h5>زيت اللوز الحلو</h5>
-        <p>ينعم البشرة ويمنحها إشراقاً</p>
+
+      <div class="text-center mt-5">
+        <div class="trust-badges">
+          <div class="row justify-content-center g-4">
+            <div class="col-6 col-md-3">
+              <div class="trust-badge p-3">
+                <h3 class="fw-bold text-primary mb-2">45,000+</h3>
+                <p class="small mb-0">زبونة</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-3">
+              <div class="trust-badge p-3">
+                <h3 class="fw-bold text-primary mb-2">4.8/5</h3>
+                <p class="small mb-0">تقييم</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-3">
+              <div class="trust-badge p-3">
+                <h3 class="fw-bold text-primary mb-2">97%</h3>
+                <p class="small mb-0">يوصّيو به</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-3">
+              <div class="trust-badge p-3">
+                <h3 class="fw-bold text-primary mb-2">12,000+</h3>
+                <p class="small mb-0">آراء 5 نجوم</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col-md-4">
-        <h5>فيرومونات طبيعية</h5>
-        <p>تعزز الأنوثة والجاذبية</p>
+
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section py-5 bg-primary text-white" id="cta">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <span class="badge bg-white text-primary mb-3">عرض خاص</span>
+          <h2 class="display-4 fw-bold mb-4">اطلبي الآن وخذي العرض</h2>
+          <p class="lead mb-4">عرض محدود وكمية محدودة — لا تفوتي الفرصة.</p>
+
+          <ul class="list-unstyled mb-4">
+            <li class="mb-3">
+              <i class="fas fa-check-circle me-2"></i>
+              <strong>ضمان 30 يوم</strong>
+            </li>
+            <li class="mb-3">
+              <i class="fas fa-check-circle me-2"></i>
+              <strong>دفع آمن</strong>
+            </li>
+            <li class="mb-3">
+              <i class="fas fa-check-circle me-2"></i>
+              <strong>خدمة الزبناء 7/7</strong>
+            </li>
+          </ul>
+
+          <div class="countdown-timer mb-4 p-3 bg-white bg-opacity-10 rounded">
+            <p class="mb-2"><i class="fas fa-clock me-2"></i>العرض كيسالي فـ:</p>
+            <div class="d-flex gap-3">
+              <div class="text-center">
+                <div class="display-6 fw-bold" id="hours">23</div>
+                <small>ساعة</small>
+              </div>
+              <div class="display-6 fw-bold">:</div>
+              <div class="text-center">
+                <div class="display-6 fw-bold" id="minutes">59</div>
+                <small>دقيقة</small>
+              </div>
+              <div class="display-6 fw-bold">:</div>
+              <div class="text-center">
+                <div class="display-6 fw-bold" id="seconds">59</div>
+                <small>ثانية</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="cta-form-container bg-white text-dark rounded-4 p-4 p-md-5 shadow-lg">
+            <h3 class="fw-bold mb-4 text-center">طلبيتك هنا</h3>
+
+            <form id="orderForm"
+              action="https://docs.google.com/forms/d/e/1FAIpQLSdzYmoyqOgATvqSIxve4sFD3kU0QAqS0Zx1fmKsNYZj4fTZsg/formResponse"
+              method="POST" target="hidden_iframe">
+
+              <!-- الاسم -->
+              <div class="mb-3">
+                <label for="fullName" class="form-label">الاسم الكامل *</label>
+                <input type="text" class="form-control" id="fullName" name="entry.2005620554" required>
+                <div class="invalid-feedback">المرجو إدخال الاسم الكامل.</div>
+              </div>
+
+              <!-- العنوان -->
+              <div class="mb-3">
+                <label for="address" class="form-label">العنوان *</label>
+                <input type="text" class="form-control" id="address" name="entry.1065046570" required>
+                <div class="invalid-feedback">المرجو إدخال العنوان.</div>
+              </div>
+
+              <!-- الإيميل -->
+              <div class="mb-3">
+                <label for="email" class="form-label">الإيميل *</label>
+                <input type="email" class="form-control" id="email" name="entry.839337160" required>
+                <div class="invalid-feedback">المرجو إدخال إيميل صحيح.</div>
+              </div>
+
+              <!-- الهاتف -->
+              <div class="mb-3">
+                <label for="phone" class="form-label">رقم الهاتف *</label>
+                <input type="tel" class="form-control" id="phone" name="entry.1166974658" required>
+                <div class="invalid-feedback">المرجو إدخال رقم الهاتف.</div>
+              </div>
+
+              <!-- الكمية -->
+              <div class="mb-3">
+                <label for="quantity" class="form-label">الكمية</label>
+                <select class="form-select" id="quantity">
+                  <option value="1">قارورة واحدة - 149MAD</option>
+                  <option value="2" selected>جوج قراعي - 249MAD</option>
+                  <option value="3">3 قراعي - 340MAD</option>
+                </select>
+                <small class="text-muted"></small>
+              </div>
+
+              <!-- الشروط -->
+              <div class="mb-4">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="terms" required>
+                  <label class="form-check-label small" for="terms">كنوافق على الشروط</label>
+                  <div class="invalid-feedback">خاصك توافق على الشروط.</div>
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-lg w-100 mb-3">
+                <i class="fas fa-lock me-2"></i>إرسال الطلب
+              </button>
+
+              <div class="text-center">
+                <small class="text-muted">
+                  <i class="fas fa-shield-alt me-1"></i>معلوماتك محمية
+                </small>
+              </div>
+            </form>
+
+            <iframe name="hidden_iframe" style="display:none;"></iframe>
+
+            <script>
+              let submitted = false;
+              document.querySelector('iframe[name="hidden_iframe"]').addEventListener('load', function () {
+                if (submitted) submitted = false;
+              });
+            </script>
+
+            <script>
+              document.addEventListener("DOMContentLoaded", () => {
+                const form = document.getElementById("orderForm");
+                if (!form) return;
+
+                form.addEventListener("submit", async (e) => {
+                  e.preventDefault();
+                  e.stopImmediatePropagation();
+
+                  if (!form.checkValidity()) {
+                    form.classList.add("was-validated");
+                    return;
+                  }
+
+                  const btn = form.querySelector('button[type="submit"]');
+                  if (btn) btn.disabled = true;
+
+                  try {
+                    const data = new FormData(form);
+                    data.append("submit", "Submit");
+
+                    submitted = true;
+                    await fetch(form.action, {
+                      method: "POST",
+                      mode: "no-cors",
+                      body: data
+                    });
+
+                    const name = document.getElementById("fullName").value;
+                    const phone = document.getElementById("phone").value;
+                    const qty = document.getElementById("quantity") ? document.getElementById("quantity").value : "1";
+
+                    window.location.href =
+                      `merci.html?name=${encodeURIComponent(name)}&phone=${encodeURIComponent(phone)}&qty=${encodeURIComponent(qty)}`;
+
+                    form.reset();
+                    form.classList.remove("was-validated");
+                  } catch (err) {
+                    alert("وقع مشكل فالإرسال. عاود جرّب.");
+                    console.log(err);
+                  } finally {
+                    if (btn) btn.disabled = false;
+                  }
+                }, true);
+              });
+            </script>
+
+          </div>
+        </div>
+
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- Testimonials -->
-<section class="py-5" id="testimonials">
-  <div class="container text-center">
-    <h2 class="fw-bold mb-4">تجارب زبوناتنا</h2>
+  <!-- Footer -->
+  <footer class="footer bg-dark text-white py-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <h5 class="fw-bold mb-4">
+            <i class="fas fa-heart me-2"></i>Pheromone Oil
+          </h5>
+          <p class="text-white-50 mb-4">زيت جسم فاخر بالفيرومونات ومكوّنات مميزة لنعومة وثقة.</p>
+          <div class="social-links">
+            <a href="#" class="btn btn-outline-light btn-sm rounded-circle me-2">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="btn btn-outline-light btn-sm rounded-circle me-2">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="btn btn-outline-light btn-sm rounded-circle me-2">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="btn btn-outline-light btn-sm rounded-circle">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </div>
+        </div>
 
-    <div class="row g-4">
-      <div class="col-md-4">
-        <p>“حسّيت بثقة كبيرة وجاذبية مختلفة”</p>
-        <strong>سلمى – الدار البيضاء</strong>
+        <div class="col-lg-2 col-md-6">
+          <h6 class="fw-bold mb-4">روابط</h6>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="#benefits" class="text-white-50 text-decoration-none">المميزات</a></li>
+            <li class="mb-2"><a href="#ingredients" class="text-white-50 text-decoration-none">المكوّنات</a></li>
+            <li class="mb-2"><a href="#testimonials" class="text-white-50 text-decoration-none">الآراء</a></li>
+            <li class="mb-2"><a href="#cta" class="text-white-50 text-decoration-none">اطلبي الآن</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <h6 class="fw-bold mb-4">معلومات</h6>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">حول المنتج</a></li>
+            <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">التوصيل</a></li>
+            <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">الإرجاع</a></li>
+            <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">أسئلة شائعة</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <h6 class="fw-bold mb-4">تواصل</h6>
+          <ul class="list-unstyled text-white-50">
+            <li class="mb-2">
+              <i class="fas fa-map-marker-alt me-2"></i>
+              المغرب
+            </li>
+            <li class="mb-2">
+              <i class="fas fa-phone me-2"></i>
+              +212 628 864 408
+            </li>
+            <li class="mb-2">
+              <i class="fas fa-envelope me-2"></i>
+              <a href="/cdn-cgi/l/email-protection" class="__cf_email__"
+                data-cfemail="e784888993868493a7978f8295888a888982888e8bc98195">[email&#160;protected]</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="col-md-4">
-        <p>“ريحته زوينة وبشرتي ولات ناعمة بزاف”</p>
-        <strong>هند – الرباط</strong>
-      </div>
-      <div class="col-md-4">
-        <p>“كنستعملو يومياً وما نقدرش نحبسو”</p>
-        <strong>نسرين – مراكش</strong>
+
+      <hr class="my-4 bg-white opacity-25">
+
+      <div class="row">
+        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+          <small class="text-white-50">© 2026 Pheromone Body Oil. جميع الحقوق محفوظة.</small>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <a href="#" class="text-white-50 text-decoration-none me-3 small">قانوني</a>
+          <a href="#" class="text-white-50 text-decoration-none me-3 small">الخصوصية</a>
+          <a href="#" class="text-white-50 text-decoration-none small">الشروط</a>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </footer>
 
-<!-- CTA -->
-<section class="py-5 bg-primary text-white" id="cta">
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-lg-6">
-        <h2 class="fw-bold mb-3">اطلبي الآن</h2>
-        <p class="lead">عرض محدود – الدفع عند الاستلام</p>
-      </div>
+  <!-- Back to Top Button -->
+  <button id="backToTop" class="btn btn-primary rounded-circle shadow-lg">
+    <i class="fas fa-arrow-up"></i>
+  </button>
 
-      <div class="col-lg-6">
-        <form id="orderForm"
-          action="https://docs.google.com/forms/d/e/1FAIpQLSdzYmoyqOgATvqSIxve4sFD3kU0QAqS0Zx1fmKsNYZj4fTZsg/formResponse"
-          method="POST" target="hidden_iframe">
+  <!-- Bootstrap JS -->
+  <script data-cfasync="false"
+    src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
-          <input class="form-control mb-3" name="entry.2005620554" placeholder="الاسم الكامل" required>
-          <input class="form-control mb-3" name="entry.1065046570" placeholder="العنوان" required>
-          <input class="form-control mb-3" name="entry.839337160" placeholder="البريد الإلكتروني" required>
-          <input class="form-control mb-3" name="entry.1166974658" placeholder="رقم الهاتف" required>
-
-          <button class="btn btn-light btn-lg w-100">
-            تأكيد الطلب
-          </button>
-        </form>
-
-        <iframe name="hidden_iframe" style="display:none"></iframe>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Footer -->
-<footer class="bg-dark text-white text-center py-4">
-  © 2026 – جميع الحقوق محفوظة
-</footer>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

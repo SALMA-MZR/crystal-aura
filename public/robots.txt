@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://crystal-aura-bodyoil.netlify.app/sitemap.xml
